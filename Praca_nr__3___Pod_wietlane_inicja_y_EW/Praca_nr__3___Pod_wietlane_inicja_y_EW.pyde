@@ -73,4 +73,7 @@ def keyReleased():
     if key == CODED and keyCode == LEFT: 
         wcisnietaLewa = False 
     if key == 'w' or key == 'W': 
-        wcisnieteW = False 
+        wcisnieteW = False
+        
+# zabrakło podkreślenia, ale po za tym bardzo ładnie i plus do aktywności za organizację kodu
+# 1,75pkt
