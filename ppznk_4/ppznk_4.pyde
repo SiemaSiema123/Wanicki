@@ -1,7 +1,7 @@
 add_library('pdf')
 def setup():
     global zdjecie, was, czapka
-    size(500, 500)
+    size(500, 500) # to nie sąproporcje zdjęcia dokumentowego, po za tym rozciąga to zdjęcie
     zdjecie = loadImage("alibaba.jpg")
     was = loadImage("wons.png")
     czapka = loadImage("fedorka.png")
@@ -19,3 +19,5 @@ def draw():
 def mousePressed():
     endRecord()
     exit()
+    
+# 1,5pkt
