@@ -1,0 +1,10 @@
+class ATM_machine():
+  account_balance
+  withdraw(acc_num)
+  deposit(acc_num)
+  check_balance(acc_num)
+class Customer():
+  wallet
+  acc_num
+  get_money(amount)
+  give_money(amount)
