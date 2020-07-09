@@ -57,3 +57,5 @@ def mouseClicked():
         pet.speak() # dla różnych typów (Cat, Dog) klas wywołujemy to samo polecenie jedną linijką - to właśnie przejaw polimorfizmu
         if isinstance(pet, Dog): # te które są charakterystyczne dla danego typu obiektu, musimy ująć w warunek, bo na niewłaściwym typie wywaliłoby błąd
             pet.gimmePaw()
+            
+#1,75pkt
