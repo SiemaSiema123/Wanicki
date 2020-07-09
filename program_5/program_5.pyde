@@ -29,3 +29,5 @@ def draw():
 
 def mousePressed():
     lista.append(Koleczko(mouseX, mouseY, 50))
+
+#2pkt
