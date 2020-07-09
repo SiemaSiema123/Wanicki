@@ -15,7 +15,7 @@ class PasiastyKwadrat(Kwadrat):
             line(x+_xLinii_, y, x+_xLinii_, y+self.bok)
             _xLinii_ +=space
            
-class OkraglastyKwadrat(Kwadrat):
+class OkraglastyKwadrat(Kwadrat): # kwadratura koła? ;)
     def sketchOkraglasty(self, x, y):
         Kwadrat.sketch(self, x, y)
        
@@ -32,3 +32,5 @@ def setup():
     malyKwadrat.sketch(100, 200)
     siema = OkraglastyKwadrat(100.0)
     siema.sketchOkraglasty(300, 300)
+    
+#2pkt
