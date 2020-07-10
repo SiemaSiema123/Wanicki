@@ -8,3 +8,7 @@ class Customer():
   acc_num
   get_money(amount)
   give_money(amount)
+
+W bankomacie powinna być raczej informacja o ilości pieniędzy/nominałąch w tymże, balans konta to informacja dotycząca konta, ew, przypisanej do niego karty
+Klient, to mało praecyzyjna nazwa dla klasy, biorać pod uwagę, że jeden klient móże mieć wiele kont i kart.
+0,75/1,5pkt za tę część
